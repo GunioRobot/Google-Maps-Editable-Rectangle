@@ -18,7 +18,7 @@ function RectangleHandles() {
 		});
 		handles[i].bindTo('map', this);
 	}
-	
+
 	this.a.bindTo('lat', this.b, 'lat');
 	this.b.bindTo('lng', this.c, 'lng');
 	this.c.bindTo('lat', this.d, 'lat');

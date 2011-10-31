@@ -1,6 +1,6 @@
 function EditableRectangle(options) {
 
-	this.set('map', options.map);	
+	this.set('map', options.map);
 	this.set('bounds', options.bounds);
 
 	this.rect = new google.maps.Rectangle({
